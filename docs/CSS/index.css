@@ -1,0 +1,15 @@
+.navbar img{
+    height:7rem;
+    width:7rem;
+}
+/**CARDS*/
+.card {
+    margin-right: 1rem;
+}
+.card:last-child {
+    margin-right: 0;
+}
+/*TEXT*/
+p{
+    text-align: justify;
+}
