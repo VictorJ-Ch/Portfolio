@@ -13,3 +13,12 @@
 p{
     text-align: justify;
 }
+/*INICIO*/
+.inicio{
+    .h2{
+        font-size: 10rem;
+    }
+    .VictorCh{
+        border-radius: 50%;
+    }
+}
