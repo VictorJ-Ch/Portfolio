@@ -1,6 +1,29 @@
+/*GENERAL DOC*/
+body{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+main {
+    margin-bottom: 2rem;
+}
+footer {
+    position: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightblue;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 1rem;
+}
+/*NAVBAR*/
 .navbar img{
-    height:7rem;
-    width:7rem;
+    height:2rem;
+    width:2rem;
+}
+.navbar .navbar-brand a{
+    color:grey;
 }
 /**CARDS*/
 .card {
@@ -20,5 +43,14 @@ p{
     }
     .VictorCh{
         border-radius: 50%;
+    }
+}
+/*ITCHIO*/
+.itchio{
+    h2{
+        text-align: left;
+    }
+    h1{
+        text-align: center;
     }
 }
