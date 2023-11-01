@@ -2,38 +2,35 @@
 body{
     margin-left: 2rem;
     margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    color: black;
+    background: lightgrey;
 }
 main {
     margin-bottom: 2rem;
 }
-footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: lightblue;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    border-radius: 1rem;
-}
-/*NAVBAR*/
-.navbar img{
-    height:2rem;
-    width:2rem;
-}
-.navbar .navbar-brand a{
-    color:grey;
-}
-/**CARDS*/
-.card {
-    margin-right: 1rem;
-}
-.card:last-child {
-    margin-right: 0;
+/*Containers*/
+.container{
+    flex: 1;
 }
 /*TEXT*/
 p{
     text-align: justify;
+}
+h1, h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+/*NAVBAR*/
+.navbar img{
+    height:4rem;
+    width:4rem;
+}
+.navbar .navbar-brand a{
+    color:grey;
 }
 /*INICIO*/
 .inicio{
@@ -52,4 +49,29 @@ p{
     h1{
         text-align: center;
     }
+}
+/**CARDS*/
+.card {
+    margin-right: 1rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 1 rem;
+}
+.card:last-child {
+    margin-right: 0;
+}
+/*Footer*/
+footer {
+    position: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightblue;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 1rem;
+}
+.card-header{
+    font-weight: bold;
+    text-transform: uppercase;
 }
