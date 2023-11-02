@@ -39,30 +39,18 @@ h1, h2{
 }
 /*INICIO*/
 .inicio{
-    .h2{
-        font-size: 10rem;
-    }
     .VictorCh{
         border-radius: 50%;
     }
 }
-/*ITCHIO*/
-.itchio{
-    h2{
-        text-align: left;
-    }
-    h1{
-        text-align: center;
-    }
-}
 /**CARDS*/
-.card {
+.card{
     margin-right: 1rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
     border-radius: 1 rem;
-}
-.card:last-child {
-    margin-right: 0;
+    card:last-child{
+        margin-right: 1rem;
+    }
 }
 /*Footer*/
 footer {
@@ -79,4 +67,10 @@ footer {
 .card-header{
     font-weight: bold;
     text-transform: uppercase;
+}
+@media (max-width: 768px) {
+    /* Estilos para pantallas más pequeñas, como tablets */
+}
+@media (max-width: 480px) {
+    /* Estilos para dispositivos móviles */
 }
