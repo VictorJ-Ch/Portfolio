@@ -51,6 +51,8 @@ h3{
 .inicio{
     .VictorCh{
         border-radius: 50%;
+        width: 90%;
+        height: 90%;
     }
 }
 /**CARDS*/
