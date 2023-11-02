@@ -81,21 +81,3 @@ footer {
     font-weight: bold;
     text-transform: uppercase;
 }
-/*tablets*/
-@media (max-width: 768px) {
-    .card{
-        margin: 7rem;
-    }
-    .card img{
-        text-align: center;
-    }
-}
-/*Mobile*/
-@media (max-width: 480px) {
-    .card{
-        margin: 1rem;
-    }
-    .card img{
-        text-align: center;
-    }
-}
