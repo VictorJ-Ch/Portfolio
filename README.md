@@ -1,2 +1,4 @@
 # Portfolio
-Entra al [link](https://victorj-ch.github.io/Portfolio/) para ver mi portafolio virtual.
+Made by Victor Javier Chavarria Martinez
+Practice 4 Partial 3
+Click this [link](https://victorj-ch.github.io/Portfolio/) to see my virtual portfolio.
