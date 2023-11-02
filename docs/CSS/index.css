@@ -17,12 +17,22 @@ main {
     flex: 1;
 }
 /*TEXT*/
-p{
+p, a{
     text-align: justify;
+    font-family: 'Open Sans', sans-serif;
 }
 h1, h2{
     font-size: 3rem;
     font-weight: bold;
+    font-family: Agbalumo;
+}
+.h2-big{
+    font-size: 8rem;
+}
+h3{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Agbalumo;
 }
 /*NAVBAR*/
 .navbar img{
@@ -45,11 +55,11 @@ h1, h2{
 }
 /**CARDS*/
 .card{
-    margin-right: 1rem;
+    margin-right: 2rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
     border-radius: 1 rem;
     card:last-child{
-        margin-right: 1rem;
+        margin-right: 0rem;
     }
 }
 /*Footer*/
@@ -68,13 +78,21 @@ footer {
     font-weight: bold;
     text-transform: uppercase;
 }
+/*tablets*/
 @media (max-width: 768px) {
     .card{
-        margin: 1rem;
+        margin: 7rem;
+    }
+    .card img{
+        text-align: center;
     }
 }
+/*Mobile*/
 @media (max-width: 480px) {
     .card{
         margin: 1rem;
+    }
+    .card img{
+        text-align: center;
     }
 }
