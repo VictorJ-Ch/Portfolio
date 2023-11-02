@@ -69,8 +69,12 @@ footer {
     text-transform: uppercase;
 }
 @media (max-width: 768px) {
-    /* Estilos para pantallas más pequeñas, como tablets */
+    .card{
+        margin: 1rem;
+    }
 }
 @media (max-width: 480px) {
-    /* Estilos para dispositivos móviles */
+    .card{
+        margin: 1rem;
+    }
 }
